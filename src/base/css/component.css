@@ -1,0 +1,46 @@
+/*↓ Block, box ↓*/
+/*↓ Header ↓*/
+.box__header_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.box__header_1 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 30px;
+}
+
+.box__header_link {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+/*↓ Block1 ↓*/
+.box__block_1__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 60px;
+}
+body .box__block_1__left {margin-top: 20vh;}
+
+.box__block_1__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: max-content;
+}
+
+.moki_1 {
+    background: url('../../assets/image/moki1.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+}
+body .moki_1 {margin-top: 16vh;}
