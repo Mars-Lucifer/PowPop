@@ -1,5 +1,9 @@
 /*↓ Header ↓*/
-.logo {font-size: 18px;}
+.logo {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+}
 
 .version {
     font-size: 8px;
