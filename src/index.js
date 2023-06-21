@@ -16,11 +16,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const app = ReactDOMClient.createRoot(document.getElementById("root"))
 
 app.render(<div>
-    <Router>
-        <Routes>
-            <Route path='/' element={<Main/>}/>
-            <Route path='/recipes' element={<Recipes/>}/>
-        </Routes>
-    </Router>
+    <div className='container'>
+        <Router>
+            <Routes>
+                <Route path='/' element={<Main/>}/>
+                <Route path='/recipes' element={<Recipes/>}/>
+            </Routes>
+        </Router>
+    </div>
     <Analytics />
 </div>)

@@ -66,5 +66,30 @@
     background-position: center;
 }
 
+.el {background-image: 
+    url("../../assets/image/arrow3.svg");
+    border: none; background-color: #FFDD99;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    transition-duration: 250ms;
+}
+.el:hover {transform: scale(1.15);}
 .two {background-image: url("../../assets/image/arrow2.svg"); border: 2px #2E6BE5 solid;}
 
+/*↓ Element ↓*/
+
+.text__el_big {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #E5A82E;
+    width: 100%
+}
+
+.text__el_small {
+    font-size: 8px;
+    margin-left: 10px;
+    color: #E5BF73;
+    width: 70%;
+}
