@@ -34,6 +34,8 @@
     color: #B3B3B3;
 }
 
+.text__block_1__margin{margin-bottom: 16vh;}
+
 .text__block_1__link {
     font-size: 12px;
     width: 100%;
@@ -47,6 +49,7 @@
     border-radius: 12px;
     text-decoration: none;
     transition-duration: 450ms;
+    border: none;
 }
 .text__block_1__link:hover {
     transform: translateX(20px);

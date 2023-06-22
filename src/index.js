@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 //My Page
 import Main from './base/main';
 import Recipes from './base/recipes';
+import Dishes from './base/dishes';
 //CSS
 import './index.css';
 import "./base/css/component.css"
@@ -21,6 +22,7 @@ app.render(<div>
             <Routes>
                 <Route path='/' element={<Main/>}/>
                 <Route path='/recipes' element={<Recipes/>}/>
+                <Route path='/dishes/:id' element={<Dishes/>}/>
             </Routes>
         </Router>
     </div>

@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-body p, a, button {
+* {
+  font-family: 'Press Start 2P', cursive;
   margin: 0px;
   padding: 0px;
-}
-
-body p, a {
-  font-family: 'Press Start 2P', cursive;
 }
