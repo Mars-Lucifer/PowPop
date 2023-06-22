@@ -57,3 +57,32 @@ body .moki_1 {margin-top: 16vh;}
     align-items: flex-end;
     margin: 3vh 0px;
 }
+
+/*↓ dishes ↓*/
+
+.img_1 {
+    border-radius: 16px;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 16vh;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.box__dish_1 {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.el__dish {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    background-color: #BFD4FF;
+}
+
+.ed_2 {background-color: #FFBFCA;}
+.ed_3 {background-color: #FFEABF;}

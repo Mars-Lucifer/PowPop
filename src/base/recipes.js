@@ -2,11 +2,13 @@ import React from 'react';
 import Header from './header';
 import Block2 from './block_2';
 
+import img1 from "../assets/image/i1.png";
+
 class Recipes extends React.Component {
     rec = [
         {
             id: 1,
-            img: "../assets/image/i1.png",
+            img: img1,
             title: "Jelly from Genshin Impact",
             mini_desc: "This is the Mint Jelly recipe from Genshin Impact. I really like jelly, and it also looks beautiful. I think you will definitely like it! Recipe from the channel: Matt the Cat",
             big_desc: "This is the Mint Jelly recipe from Genshin Impact. I really like jelly, and it also looks beautiful. I think you will definitely like it! Recipe from the channel: Matt the Cat",

@@ -6,7 +6,7 @@ class Header extends React.Component {
             <div className='col-12 box__header_main'>
                 <div className='box__header_1'>
                     <a href='/' className='logo'>PowPop</a>
-                    <p className='version'>version: 0.1.2</p>
+                    <p className='version'>version: 0.3.0</p>
                 </div>
                 <div className='box__header_link'>
                     <a href='https://github.com/Mars-Lucifer/PowPop' className='text_header_link' target="blank">git</a>

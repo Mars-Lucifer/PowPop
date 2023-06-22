@@ -96,3 +96,17 @@
     color: #E5BF73;
     width: 70%;
 }
+
+/*↓ Dishes ↓*/
+
+.el__dish p {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #2E6BE5;
+    font-size: 12px;
+}
+
+.el__dish .text__el {font-size: 16px;}
+.ed_2 p {color: #E52E4D; background: none;}
+.ed_3 p {color: #E5A92E; background: none;}
