@@ -95,7 +95,11 @@ body .moki_1 {margin-top: 16vh;}
     border: none;
     border-radius: 12px;
     display: flex;
+    flex-direction: column;
 }
+
+.off .box_on_rec {display: none;}
+.on .box_on_rec {display: static;}
 
 .box_rec_info {
     width: 100%;

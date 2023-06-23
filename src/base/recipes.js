@@ -16,7 +16,7 @@ class Recipes extends React.Component {
             carbohydrates: "20g per 100g",
             fats: "0.02g per 100g",
             cooking_header: "🌿 Mint jelly recipe",
-            cooking: "1. Boil mint leaves in water \n 2. Pour gelatin into this solution and sugar \n 3. Cool the solution and refrigerate for an hour so that the gelatin hardens \n 4. Remove the jelly from the bowl and put it on a plate \n 5. Enjoy your meal!"
+            cooking: "<p>1. Boil mint leaves in water</p> <p>2. Pour gelatin into this solution and sugar</p> <p>3. Cool the solution and refrigerate for an hour so that the gelatin hardens</p> <p>4. Remove the jelly from the bowl and put it on a plate</p> <p>5. Enjoy your meal!</p>"
         },
     ]
 

@@ -60,6 +60,9 @@ const Dishes = () => {
                         <p className='rec_big'>{dish.cooking_header}</p>
                         <button className='img__block_1__button free' id="button_i"></button>
                     </div>
+                    <div className='box_on_rec'>
+                        <p className='rec_small' dangerouslySetInnerHTML={{ __html: dish.cooking.replace(/\n/g, "<br>") }}></p>
+                    </div>
                 </div>
             </div>
         </div>

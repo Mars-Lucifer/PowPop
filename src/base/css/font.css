@@ -112,8 +112,14 @@
 .ed_2 p {color: #E52E4D; background: none;}
 .ed_3 p {color: #E5A92E; background: none;}
 
-
 .rec_big {
     font-size: 20px;
     margin: 0px;
+}
+
+.rec_small {
+    font-size: 12px;
+    color: #666666;
+    margin: 0px;
+    margin-top: 14px;
 }
