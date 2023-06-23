@@ -86,3 +86,21 @@ body .moki_1 {margin-top: 16vh;}
 
 .ed_2 {background-color: #FFBFCA;}
 .ed_3 {background-color: #FFEABF;}
+
+.rec_info {
+    width: 100%;
+    background-color: #F5F5F5;
+    margin-bottom: 10vh;
+    padding: 20px;
+    border: none;
+    border-radius: 12px;
+    display: flex;
+}
+
+.box_rec_info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_rec_info .free {height: 40px; width: 40px;}

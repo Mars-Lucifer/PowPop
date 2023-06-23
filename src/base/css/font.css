@@ -79,6 +79,7 @@
 }
 .el:hover {transform: scale(1.15);}
 .two {background-image: url("../../assets/image/arrow2.svg"); border: 2px #2E6BE5 solid;}
+.free {background-image: url("../../assets/image/arrow4.svg"); border: none; background-color: #EBEBEB;}
 
 /*↓ Element ↓*/
 
@@ -110,3 +111,9 @@
 .el__dish .text__el {font-size: 16px;}
 .ed_2 p {color: #E52E4D; background: none;}
 .ed_3 p {color: #E5A92E; background: none;}
+
+
+.rec_big {
+    font-size: 20px;
+    margin: 0px;
+}
