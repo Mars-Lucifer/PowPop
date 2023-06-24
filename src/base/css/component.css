@@ -108,3 +108,41 @@ body .moki_1 {margin-top: 16vh;}
 }
 
 .box_rec_info .free {height: 40px; width: 40px;}
+
+
+@media (max-width: 576px) {
+    /* Header */
+    .box__header_link {gap: 15px; flex-direction: column;}
+    .box__header_1 {gap: 15px;}
+    body .logo {font-size: 10px;}
+    .box__header_main {
+        padding-bottom: 10px;
+        border-bottom: #999999 2px dashed;
+    }
+
+    /* Block1 */
+    body .text__block_1__big {font-size: 14px; margin-bottom: 5px;}
+    body .text__block_1__small {font-size: 8px; width: 90%;}
+    body .text__block_1__link {font-size: 8px; padding: 8px 12px;}
+
+}
+
+@media (max-width: 768px) {
+    /* Main */
+    body .moki_1 {margin: 0px; margin-top: 4vh;}
+    body .box__block_1__left {margin-top: 6vh;}
+    .text__block_1__big {font-size: 18px;}
+    .text__block_1__small {font-size: 10px;}
+    .text__block_1__link {font-size: 10px;}
+
+    /* Header */
+    .logo {font-size: 14px;}
+    .version {font-size: 6px;}
+    .text_header_link {font-size: 6px;}
+}
+
+@media (max-width: 992px) {
+    body .text__block_1__big {font-size: 22px;}
+    body .text__block_1__small {font-size: 10px; width: 90%;}
+    body .text__block_1__link {font-size: 10px;}
+}

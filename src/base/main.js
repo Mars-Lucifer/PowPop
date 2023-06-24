@@ -8,8 +8,8 @@ class Main extends React.Component {
             <div className='row'>
                 <Header />
                 <Block1 />
-                <div className='col-1'></div>
-                <div className='col-5 moki_1'></div>
+                <div className='col-lg-1'></div>
+                <div className='col-lg-5 col-md-4 order-md-2 moki_1'></div>
             </div>
         )
     }

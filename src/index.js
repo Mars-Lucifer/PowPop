@@ -9,8 +9,8 @@ import Recipes from './base/recipes';
 import Dishes from './base/dishes';
 //CSS
 import './index.css';
-import "./base/css/component.css"
 import "./base/css/font.css"
+import "./base/css/component.css"
 //Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 
