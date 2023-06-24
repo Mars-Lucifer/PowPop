@@ -66,7 +66,7 @@ body .moki_1 {margin-top: 16vh;}
     width: 100%;
     margin-bottom: 16vh;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -110,21 +110,15 @@ body .moki_1 {margin-top: 16vh;}
 .box_rec_info .free {height: 40px; width: 40px;}
 
 
-@media (max-width: 576px) {
-    /* Header */
-    .box__header_link {gap: 15px; flex-direction: column;}
-    .box__header_1 {gap: 15px;}
-    body .logo {font-size: 10px;}
-    .box__header_main {
-        padding-bottom: 10px;
-        border-bottom: #999999 2px dashed;
-    }
+@media (max-width: 992px) {
+    body .text__block_1__big {font-size: 22px;}
+    body .text__block_1__small {font-size: 10px; width: 90%;}
+    body .text__block_1__link {font-size: 10px;}
 
-    /* Block1 */
-    body .text__block_1__big {font-size: 14px; margin-bottom: 5px;}
-    body .text__block_1__small {font-size: 8px; width: 90%;}
-    body .text__block_1__link {font-size: 8px; padding: 8px 12px;}
-
+    /* Dishes */
+    .img_1 {height: 30vh; margin-bottom: 4vh;}
+    .box__dish_1 {margin-bottom: 4vh;}
+    .rec_big {width: 80%;}
 }
 
 @media (max-width: 768px) {
@@ -139,10 +133,39 @@ body .moki_1 {margin-top: 16vh;}
     .logo {font-size: 14px;}
     .version {font-size: 6px;}
     .text_header_link {font-size: 6px;}
+
+    /* Block2 */
+    .text__block_1__margin {margin-bottom: 4vh;}
+    body .box__block_1__left {margin-bottom: 0px;}
+    body .box__block_1__left {margin-top: 10vh;}
+
+    /* Dishes */
+    .img_1 {height: 30vh; margin-bottom: 4vh;}
+    .box__dish_1 {margin-bottom: 8vh;}
+    .rec_big {width: 80%;}
 }
 
-@media (max-width: 992px) {
-    body .text__block_1__big {font-size: 22px;}
-    body .text__block_1__small {font-size: 10px; width: 90%;}
-    body .text__block_1__link {font-size: 10px;}
+@media (max-width: 576px) {
+    /* Header */
+    .box__header_link {gap: 15px; flex-direction: column;}
+    .box__header_1 {gap: 15px;}
+    body .logo {font-size: 10px;}
+    .box__header_main {
+        padding-bottom: 10px;
+        border-bottom: #999999 2px dashed;
+    }
+
+    /* Block1 */
+    body .text__block_1__big {font-size: 14px; margin-bottom: 5px;}
+    body .text__block_1__small {font-size: 8px; width: 90%;}
+    body .text__block_1__link {font-size: 8px; padding: 8px 12px;}
+    body .box__block_1__left {margin-top: 12vh;}
+
+    /* Dishes */
+    .img_1 {height: 30vh; margin-bottom: 4vh;}
+    .box__dish_1 {margin-bottom: 8vh;}
+    .el__dish p {font-size: 10px;}
+    .el__dish .text__el {font-size: 14px;}
+    .rec_big {font-size: 16px; width: 80%;}
+    .rec_small p {font-size: 10px;}
 }

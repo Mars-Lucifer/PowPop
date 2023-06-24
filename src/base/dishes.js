@@ -30,14 +30,13 @@ const Dishes = () => {
         <div className='row'>
             <Header/>
             <Block2 title={dish.title} desc={dish.big_desc}/>
-            <div className='col'></div>
-            <div className='col-4 moki_1 moki_2'></div>
+            <div className='col-md-4 col-6 moki_1 moki_2'></div>
 
-            <div className='col-8'>
+            <div className='col-lg-8'>
                 <div className='img_1' id="img"></div>
             </div>
 
-            <div className='col-4 box__dish_1'>
+            <div className='col-lg-4 col-sm-8 box__dish_1'>
                 <div className='el__dish'>
                     <p>Water</p>
                     <p className='text__el'>{dish.water}</p>
@@ -54,7 +53,7 @@ const Dishes = () => {
                 </div>
             </div>
 
-            <div className='col-8'>
+            <div className='col-lg-8'>
                 <div className='rec_info off' id="dish_info">
                     <div className='box_rec_info'>
                         <p className='rec_big'>{dish.cooking_header}</p>

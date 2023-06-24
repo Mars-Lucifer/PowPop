@@ -26,9 +26,8 @@ class Recipes extends React.Component {
                 <div className='row'>
                     <Header />
                     <Block2 title="List of recipes" desc="This is the main page of my site, there are a lot, or maybe not a lot, of various dishes. You can search for something to your liking."/>
-                    <div className='col'></div>
-                    <div className='col-4 moki_1'></div>
-                    {this.rec.map((el) => (<div className='col-6' key={el.id}>
+                    <div className='col-6 col-lg-5 col-md-4 moki_1'></div>
+                    {this.rec.map((el) => (<div className='col-md-6' key={el.id}>
                         <div className="element">
                             <div>
                                 <p className='text__el_big'>{el.title}</p>
